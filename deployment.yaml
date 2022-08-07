@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: number7
+spec:
+    selector:
+      matchLabels:
+        app: number7
+    template:
+      metadata:
+        labels:
+            app: number7
+      spec:
+        containers:
+        - name: number7
+          image: igidiogu/exam1
+
