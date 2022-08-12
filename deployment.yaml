@@ -7,7 +7,7 @@ metadata:
   name: question6
 spec:
   ports: ~
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: devops_exam
